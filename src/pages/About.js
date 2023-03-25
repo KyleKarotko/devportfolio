@@ -5,7 +5,7 @@ import img from '../assets/images/Avatar1.png'
 function About() {
   return (
     <div>
-        <img src={img} />
+        <img src={img} alt= "Avatar of a bearded smiling bald guy wearing glasses and a purple hoody against a green checkard backgrond"/>
 
 
       <p>
