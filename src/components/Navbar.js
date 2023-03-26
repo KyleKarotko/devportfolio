@@ -5,6 +5,8 @@ const styles = {
   card: {
     margin: 20,
     background: '#FFFDD0',
+    display: 'flex',
+    justifyContent: 'center',
   },
   heading: {
     background: '#000080',
