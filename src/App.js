@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
@@ -32,6 +33,7 @@ function App() {
     <div>
       <Header currentPage = {currentPage} handlePageChange = {handlePageChange}/>
       <Section currentPage = {currentPage} />
+      <Footer currentPage = {currentPage} />
     
     </div>
   );
