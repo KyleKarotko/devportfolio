@@ -28,15 +28,15 @@ function Portfolio() {
     },
     {
       id: 5,
-      title: 'READme Generator',
-      desc: 'Using the Inquirer package, this is a command-line application that dynamically generates a professional README.md file from a users input',
-      img: '../assets/images/RG1.png',
+      title: 'Travel Forum',
+      desc: 'This application is used to enable travelers and vacation seekers to blog about locations they have visited. This application will also serve fellow travelers in learning about new locations they may want to visit.',
+      img: '../assets/images/TB1.png',
     },
     {
       id: 6,
-      title: 'Travel Forum',
-      desc: '  This application is used to enable travelers and vacation seekers to blog about locations they have visited. This application will also serve fellow travelers in learning about new locations they may want to visit.',
-      img: '../assets/images/TB1.png',
+      title: 'Progressive Web App - Text Editor',
+      desc: 'This is an installable text editor web application that contains a client server folder structure. It uses webpack to bundle JS files. It is able to function with past and present generations of JS without error. The editor uses Indexed DB for storage on the client for any data entered in. This data will persist without an internet connection.',
+      img: '../assets/images/JATE2.png',
     },
   ];
   return (
