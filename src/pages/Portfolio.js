@@ -4,39 +4,40 @@ function Portfolio (){
     const projects = [
         {
             id: 1,
-            title: "Project 1",
-            img: '',
+            title: "First Portfolio",
+            desc: "can you see me?",
+            img: "/assets/images/Avatar1.png",
         },
         {
             id: 2,
-            title: "Project 2",
+            title: "Movie Time",
             img: '',
         },
         {
             id: 3,
-            title: "Project 3",
+            title: "JavaScript Quiz",
             img: '',
         },
         {
             id: 4,
-            title: "Project 4",
+            title: "Note Taker",
             img: '',
         },
         {
             id: 5,
-            title: "Project 5",
+            title: "READme Generator",
             img: '',
         },
         {
             id: 6,
-            title: "Project 6",
+            title: "Travel Forum",
             img: '',
         },
     ]
     return (
         <div>
             {projects.map(project => {
-                return <ProjectCard key = {project.id} title = {project.title}/>
+                return <ProjectCard key = {project.id} title = {project.title} img = {project.img} desc = {project.desc}/>
             })}
         </div>
     )
