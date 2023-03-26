@@ -1,0 +1,30 @@
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .about-avatar {
+    margin-right: 30px;
+  }
+  
+  .about-text {
+    width: 50%;
+  }
+  
+  .about-card {
+    background: #f2ffd0b6;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card .card-body {
+    padding: 20px;
+  }
+  
+  .about-card p {
+    margin-bottom: 20px;
+  }
+  
