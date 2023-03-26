@@ -1,5 +1,5 @@
 .header {
-  background: #b71775;
+  background: #FFFDD0;
   height: 200px;
 }
 
@@ -7,6 +7,6 @@
   margin: 0;
   padding-top: 75px;
   text-align: center;
-  color: white;
+  color: #000080;
   font-size: 3rem;
 }

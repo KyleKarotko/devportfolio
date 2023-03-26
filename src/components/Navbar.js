@@ -1,19 +1,17 @@
 import React from 'react';
-// Here we import the Navbar.css file to grant access to some additional classNames
 import '../styles/Navbar.css';
 
-// TODO: Create a styles object called "styles"
 const styles = {
   card: {
     margin: 20,
-    background: '#e8eaf6',
+    background: '#FFFDD0',
   },
   heading: {
-    background: '#3f51b5',
+    background: '#000080',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
-    color: 'white',
+    color: '#E6E6FA',
     padding: '0 20px',
   },
   content: {
@@ -22,7 +20,6 @@ const styles = {
 };
 
 function Navbar({currentPage, handlePageChange}) {
-  // TODO: Add a style attribute to `nav`
   return (
     <nav style={styles.card} className="navbar">
        <ul className="nav">
@@ -30,8 +27,6 @@ function Navbar({currentPage, handlePageChange}) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home

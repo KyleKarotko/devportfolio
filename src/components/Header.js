@@ -4,11 +4,11 @@ import Navbar from './Navbar';
 const styles = {
   card: {
     margin: 20,
-    background: '#e8eaf6',
-    border: '1px solid black'
+    background: '#FFFDD0',
+    border: '1px solid #E6E6FA'
   },
   heading: {
-    background: '#9a74db',
+    background: '#000080',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',

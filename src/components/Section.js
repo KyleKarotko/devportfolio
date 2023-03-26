@@ -9,10 +9,10 @@ import Resume from "../pages/Resume"
 const styles = {
   card: {
     margin: 20,
-    background: '#e8eaf6',
+    background: '#FFFDD0',
   },
   heading: {
-    background: '#3f51b5',
+    background: '#000080',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
