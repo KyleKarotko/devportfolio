@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <a href="#">GitHub</a>
+        <a href="https://github.com/KyleKarotko">GitHub</a>
       </div>
       <div>
-        <a href="#">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/kkarotko">LinkedIn</a>
       </div>
       <div>
-        <a href="#">Some Other Social that i don't have</a>
+        <a href="https://www.knewicould.com/">Personal Training</a>
       </div>
     </div>
   );
