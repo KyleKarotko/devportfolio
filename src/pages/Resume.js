@@ -1,9 +1,10 @@
 import React from 'react';
+import Rez from '../assets/images/rez.png'
 function Resume() {
   return (
     <div>
-      <a href="../assets/images/rez.png" download>
-        <img src="../assets/images/rez.png" alt="A resume" />
+      <a href={Rez} download>
+        <img src={Rez} alt="A resume" />
       </a>
       <div>
         <h2>Computer Science Applied to JavaScript</h2>
