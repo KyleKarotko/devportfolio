@@ -1,0 +1,17 @@
+.project-card {
+    width: 18rem;
+    margin: 1rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border-color: rgb(170, 117, 219);
+  }
+  
+  .project-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-body {
+    padding: 1rem;
+  }
+  
