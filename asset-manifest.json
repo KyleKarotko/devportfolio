@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/devportfolio/static/css/main.02f5ca28.css",
+    "main.js": "/devportfolio/static/js/main.49b498d9.js",
+    "static/media/kkPrfloScreenshot1.png": "/devportfolio/static/media/kkPrfloScreenshot1.790b63add365b13c9531.png",
+    "static/media/rez.png": "/devportfolio/static/media/rez.aa976dc53c92443db25c.png",
+    "static/media/image2.png": "/devportfolio/static/media/image2.6b229c8e6c08f05e2ed7.png",
+    "static/media/JATE2.png": "/devportfolio/static/media/JATE2.995b544d3a5ce8626644.png",
+    "static/media/JSQ3.png": "/devportfolio/static/media/JSQ3.41a51206eafc74a5ea79.png",
+    "static/media/TB1.png": "/devportfolio/static/media/TB1.7cb713d1570b14dd88ab.png",
+    "static/media/NT1.png": "/devportfolio/static/media/NT1.5c496226978bf21f0758.png",
+    "static/media/Avatar1.png": "/devportfolio/static/media/Avatar1.83d6e11c118217fb0c74.png",
+    "index.html": "/devportfolio/index.html",
+    "main.02f5ca28.css.map": "/devportfolio/static/css/main.02f5ca28.css.map",
+    "main.49b498d9.js.map": "/devportfolio/static/js/main.49b498d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02f5ca28.css",
+    "static/js/main.49b498d9.js"
+  ]
+}
