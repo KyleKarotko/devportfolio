@@ -1,12 +1,14 @@
 import React from 'react';
-import Rez from '../assets/images/rez.png'
+import Rez from '../assets/images/rez.png';
+import '../styles/Resume.css';
+
 function Resume() {
   return (
     <div>
       <a href={Rez} download>
-        <img src={Rez} alt="A resume" />
+        <img src={Rez} alt="A resume" style={{ width: '30%' }} />
       </a>
-      <div>
+      <div className="card">
         <h2>Computer Science Applied to JavaScript</h2>
         <ul>
           <li>Algorithms (searches, sorts)</li>
@@ -16,7 +18,8 @@ function Resume() {
           <li>Data structures</li>
           <li>Design patterns</li>
         </ul>
-
+      </div>
+      <div className="card">
         <h2>API Design</h2>
         <ul>
           <li>Client-server model API</li>
@@ -26,13 +29,15 @@ function Resume() {
           <li>HTTP request methods</li>
           <li>GraphQL</li>
         </ul>
-
+      </div>
+      <div className="card">
         <h2>Databases</h2>
         <ul>
           <li>MySQL</li>
           <li>MongoDB</li>
         </ul>
-
+      </div>
+      <div className="card">
         <h2>Browser-based Technologies</h2>
         <ul>
           <li>HTML, CSS</li>
@@ -42,7 +47,8 @@ function Resume() {
           <li>Progressive web applications (PWAs)</li>
           <li>LocalStorage, sessionStorage, IndexedDB</li>
         </ul>
-
+      </div>
+      <div className="card">
         <h2>Deployment and Delivery</h2>
         <ul>
           <li>Heroku</li>
@@ -52,7 +58,8 @@ function Resume() {
           <li>Linting</li>
           <li>Continuous integration</li>
         </ul>
-
+      </div>
+      <div className="card">
         <h2>Server Side Development</h2>
         <ul>
           <li>MERN stack (MongoDB, Express.js, React.js, Node.js)</li>
@@ -63,7 +70,5 @@ function Resume() {
     </div>
   );
 }
-export default Resume;
 
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+export default Resume;
