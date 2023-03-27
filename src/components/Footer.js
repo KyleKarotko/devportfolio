@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <div>
+    <div className="footer-container">
       <div>
         <a href="https://github.com/KyleKarotko">GitHub</a>
       </div>
