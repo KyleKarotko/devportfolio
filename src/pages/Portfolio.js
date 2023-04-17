@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import project1 from '../assets/images/kkPrfloScreenshot1.png';
+import project1 from '../assets/images/Junk1.png';
 import project2 from '../assets/images/image2.png';
 import project3 from '../assets/images/JSQ3.png';
 import project4 from '../assets/images/NT1.png';
@@ -12,11 +12,11 @@ function Portfolio() {
     const projects = [
         {
           id: 1,
-          title: 'First Portfolio',
-          desc: 'My portfolio showcases my work and provides a snapshot of who I am as a developer. It features information about me, my work, and ways to get in touch.',
+          title: 'Junk Store',
+          desc: 'A full stack application that allows users to create an account, login, view products and add products to their cart, as well as checkout',
           img: project1,
-          depLink: 'https://kylekarotko.github.io/kkportfolio/',
-          gitLink: 'https://github.com/KyleKarotko/kkportfolio',
+          depLink: 'https://quiet-depths-44401.herokuapp.com/',
+          gitLink: 'https://github.com/KyleKarotko/online-store',
         },
         {
           id: 2,
