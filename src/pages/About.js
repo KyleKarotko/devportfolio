@@ -17,9 +17,9 @@ function About() {
             <p>
               Hello, my name is Kyle and I am excited to introduce myself as a
               passionate and dedicated individual with a diverse background in
-              sales management, personal training, and now, full stack web
-              development. I am currently enrolled in a full stack web
-              development bootcamp, where I am gaining hands-on experience and
+              sales management, personal training, and now, full stack (MERN) web
+              development. I have recently completed a full stack web
+              development bootcamp, where I gained hands-on experience and began
               building a strong foundation in programming languages such as
               JavaScript, HTML, CSS, and various frameworks such as React,
               Node.js, and Express.

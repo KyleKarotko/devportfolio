@@ -23,11 +23,11 @@ const Home = () => {
           <li className="project-li">
             <a
               className="project-link"
-              href="https://desolate-thicket-86948.herokuapp.com/"
+              href='https://quiet-depths-44401.herokuapp.com/'
             >
-              Text Editor
+              Junk Store
             </a>{' '}
-            - A progressive web app that can be installed on any device.
+            - A full stack application that allows users to create an account, login, view products and add products to their cart, as well as checkout.
           </li>
           <li className="project-li">
             <a
