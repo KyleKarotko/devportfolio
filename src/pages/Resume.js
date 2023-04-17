@@ -1,12 +1,18 @@
 import React from 'react';
-import Rez from '../assets/images/rez.png';
+import Rez1 from '../assets/images/REZ1.png';
+import Rez2 from '../assets/images/REZ2.png';
+
 import '../styles/Resume.css';
 
 function Resume() {
   return (
     <div>
-      <a href={Rez} download>
-        <img src={Rez} alt="A resume" style={{ width: '30%' }} />
+      <h2>Click To Download</h2>
+      <a href={Rez1} download>
+        <img src={Rez1} alt="A resume" style={{ width: '30%' }} />
+      </a>
+      <a href={Rez2} download>
+        <img src={Rez2} alt="A resume" style={{ width: '30%' }} />
       </a>
       <div className="card">
         <h2>Computer Science Applied to JavaScript</h2>
